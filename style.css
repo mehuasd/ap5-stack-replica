@@ -14,10 +14,24 @@
     width: 100%;
     height: 100vh;
 }
-
-@media only screen and (max-width:786px)
-{
+.mb-3 > a{
+    text-decoration: none;
+    color: #fff;
+}
+@media only screen and (max-width:786px){
     .image{
         width: 100%;
+        height: auto;
+    }
+    #service{
+        padding: 0px 60px;
+    }
+    #homed {
+        height: 55vh;
+    }
+}
+@media only screen and (max-width:500px){
+    #home {
+        height: 60vh;
     }
 }
