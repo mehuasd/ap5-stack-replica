@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="pt-3">
+<body>
     <section id="header">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top navborder p-2">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top navborder p-2 z-3">
             <div class="container-fluid">
                 <a class="navbar-brand ps-3" href="#"><img src="images/logo.png" alt="logo" height="40px"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -43,29 +43,28 @@
         </nav>
     </section>
 
-    <section id="home" class="mt-5">
-        <div class="container py-5">
-            <div class="row row-cols-1">
-                <div class="col text-center">
-                    <h1 class="py-1">Discover Design & Build Digital<br>Presence of Business</h1>
-
-                    <button class="btn btn-primary my-5">Download Now</button><br>
-                    <img src="images/bannerimg.png" alt="" class="image">
-                </div>
+    <section id="home" class="d-flex align-items-center justify-content-center">
+        <div class="container py-5 text-center">
+            <div class="">
+                <h1 class="mt-5 py-1">Discover Design & Build Digital<br>Presence of Business</h1>
+                <button class="btn btn-primary my-5">Download Now</button><br>
+                <img src="images/bannerimg.png" alt="" class="image">
             </div>
         </div>
     </section>
 
     <section id="about" class="overflow-hidden">
-        <div class="row justify-content-center">
-            <div class="col-lg-5 offset-lg-1 p-4">
-                <h1 class="py-4">We Are Helping To Grow Your Bussiness</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.kjgyubygubkj jshuiadh usgdiuashdu
-                    sugdiuas
-                </p>
-                <button class="btn btn-primary">Download Now</button>
+        <div class="row row-cols-1 row-cols-lg-2 g-4">
+            <div class="col p-4">
+                <div class="ps-lg-5 ms-lg-5">
+                    <h1 class="py-4">We Are Helping To Grow Your Bussiness</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.kjgyubygubkj jshuiadh usgdiuashdu
+                        sugdiuas
+                    </p>
+                    <button class="btn btn-primary">Download Now</button>
+                </div>
             </div>
-            <div class="col-lg-6 bg-primary p-3">
+            <div class="col bg-primary p-4">
                 <div class="py-2 fs-4 fw-bold"><img src="images/mic.png"> What We Do</div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dignissimos voluptatem pariatur
                     nulla
@@ -159,7 +158,7 @@
 
     </section>
 
-    <footer class="bg-dark text-white">
+    <footer class="bg-dark text-white overflow-hidden">
         <div class="container py-5">
             <div class="row row-cols-1 row-cols-md-4 g-5">
                 <div class="col">
@@ -175,13 +174,13 @@
                     </div>
                 </div>
                 <div class="col">
-                    <h5 class="mb-5">GET IN TOUCH</h5>
+                    <h5 class="mb-4">GET IN TOUCH</h5>
                     <p><img src="images/building.png" alt=""> 28 Green tower,New York City,USA</p>
                     <p><img src="images/telephone.png" alt=""> +84 846 250 592</p>
                     <p><img src="images/email.png" alt=""> contact@stuck.com</p>
                 </div>
                 <div class="col">
-                    <h5 class="mb-5">QUICK LINKS</h5>
+                    <h5 class="mb-4">QUICK LINKS</h5>
                     <ul class="text-light list-unstyled text-white">
                         <li class="mb-3"><a href="#home"><span class="me-3">»</span>Home</a></li>
                         <li class="mb-3"><a href="#about"><span class="me-3">»</span>About</a></li>
@@ -191,7 +190,7 @@
                     </ul>
                 </div>
                 <div class="col">
-                    <h5 class="mb-4">NEWSTELLER</h5><br>
+                    <h5 class="mb-4">NEWSTELLER</h5>
                     <p>To be one of the most trusted and globally reputed financial distribution companies.</p>
                     <form>
                         <input type="email" class="form-control mb-3" id="exampleFormControlInput1"
