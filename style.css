@@ -1,5 +1,5 @@
 .navborder {
-    border-bottom: 3px solid #0000ff81;
+    border-bottom: 3px solid #0000ff;
 }
 
 .nav-link:hover {
@@ -27,13 +27,10 @@
     }
 
     #service {
-        padding: 0px 60px;
-    }
-    #homed {
-        height: 55vh;
+        padding: 0px 40px;
     }
 }
-
+/* bestjquery */
 .testimonial {
     text-align: center;
     margin: 20px 30px 40px;
